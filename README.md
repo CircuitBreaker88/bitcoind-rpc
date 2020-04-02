@@ -1,18 +1,18 @@
-bitcoind-rpc-innova.js
+bitcoind-rpc.js
 ===============
 
-[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc-innova.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc-innova)
-[![Build Status](https://img.shields.io/travis/innovacoin/bitcoind-rpc-innova.svg?branch=master&style=flat-square)](https://travis-ci.org/innovacoin/bitcoind-rpc-innova)
-[![Coverage Status](https://img.shields.io/coveralls/innovacoin/bitcoind-rpc-innova.svg?style=flat-square)](https://coveralls.io/r/innovacoin/bitcoind-rpc-innova?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcoind-rpc.svg?style=flat-square)](https://www.npmjs.org/package/bitcoind-rpc)
+[![Build Status](https://img.shields.io/travis/MoneyByte/bitcoind-rpc.svg?branch=master&style=flat-square)](https://travis-ci.org/MoneyByte/bitcoind-rpc)
+[![Coverage Status](https://img.shields.io/coveralls/MoneyByte/bitcoind-rpc.svg?style=flat-square)](https://coveralls.io/r/MoneyByte/bitcoind-rpc?branch=master)
 
-A client library to connect to Innova Core RPC in JavaScript.
+A client library to connect to MoneyByte Core RPC in JavaScript.
 
 ## Get Started
 
-bitcoind-rpc-innova.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+bitcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install bitcoind-rpc-innova
+npm install bitcoind-rpc
 ```
 
 ## RpcClient
@@ -30,7 +30,7 @@ Arguments :
 ```javascript
 var run = function() {
   var bitcore = require('bitcore');
-  var RpcClient = require('bitcoind-rpc-innova');
+  var RpcClient = require('bitcoind-rpc');
 
   var config = {
     protocol: 'http',
@@ -84,10 +84,10 @@ var run = function() {
 
 You can dynamically access to the help of each method by doing
 ```
-const RpcClient = require('bitcoind-rpc-innova');
+const RpcClient = require('bitcoind-rpc');
 var client = new RPCclient({
     protocol:'http',
-    user: 'innova',
+    user: 'moneybyte',
     pass: 'local321',
     host: '127.0.0.1',
     port: 19998

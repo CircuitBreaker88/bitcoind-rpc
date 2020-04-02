@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc-innova",
-  "description": "Innova Client Library to connect to Innova Core via RPC",
+  "name": "bitcoind-rpc",
+  "description": "MoneyByte Client Library to connect to MoneyByte Core via RPC",
   "version": "1.0.1",
   "author": {
     "name": "Stephen Pair",
@@ -26,15 +26,19 @@
     {
       "name": "Alex Werner",
       "email": "alex.werner@innova.org"
+    },
+    {
+      "name": "CircuitBreaker",
+      "email": "circuitbreaker88@protonmail.com"
     }
   ],
   "keywords": [
-    "innova",
+    "moneybyte",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/innovacoin/bitcoind-rpc-innova"
+    "url": "https://github.com/MoneyByte/bitcoind-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -53,7 +57,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/innovacoin/bitcoind-rpc-innova/issues"
+    "url": "https://github.com/MoneyByte/bitcoind-rpc/issues"
   },
-  "homepage": "https://github.com/innovacoin/bitcoind-rpc-innova"
+  "homepage": "https://github.com/MoneyByte/bitcoind-rpc"
 }
